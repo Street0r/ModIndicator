@@ -3,6 +3,7 @@
     "version_number": "1.0.0",
     "website_url": "https://github.com/Street0r/ModIndicator",
     "description": "Core mod that displays when SFK mods are active on the title screen",
+    "game_version": "0.4.952.0",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.23"
     ]
