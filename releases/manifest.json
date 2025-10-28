@@ -1,0 +1,9 @@
+{
+    "name": "ModIndicator",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/SFKModdingTeam",
+    "description": "Core mod that displays when SFK mods are active on the title screen",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.23"
+    ]
+}

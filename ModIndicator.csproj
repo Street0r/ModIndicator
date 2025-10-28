@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyTitle>SFK Mod Indicator</AssemblyTitle>
+    <AssemblyDescription>Core mod that shows when SFK mods are loaded</AssemblyDescription>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx References from game installation -->
+    <Reference Include="BepInEx">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    
+    <!-- Unity References from game installation -->
+    <Reference Include="UnityEngine">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    
+    <!-- Game Assembly -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\XboxGames\Super Fantasy Kingdom\Content\Super Fantasy Kingdom_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
